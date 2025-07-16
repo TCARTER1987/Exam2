@@ -10,7 +10,22 @@ private:
     int day;
     int month;
     int year;
+    /*
+    Date
+-day: int
+-month: int
+-year: int
 
++Day() - Date () actyally
++Day(y: int, m: int, d: int) - Date
++~Day() - Date
++getters …
++setters …
++printNumeric(): void
++printFormal(): void
++printEuro(): void
+
+    */
 public:
     Date();                       
     Date(int y, int m, int d);   

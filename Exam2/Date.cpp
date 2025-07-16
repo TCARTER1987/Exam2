@@ -31,6 +31,12 @@ void Date::setDay(int d) { day = d; }
 void Date::setMonth(int m) { month = m; }
 void Date::setYear(int y) { year = y; }
 
+/*
+printNumeric --  12/15/2018
+printFormal --  December 25, 2018
+printEuro -- 25 December 2018
+
+*/
 void Date::printNumeric() {
     cout << month << "/" << day << "/" << year << endl;
 }
